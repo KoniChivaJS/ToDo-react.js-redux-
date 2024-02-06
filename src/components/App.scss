@@ -88,4 +88,35 @@ body {
       }
     }
   }
+  .item-change {
+    width: 90%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    input {
+      width: 75%;
+      height: 25px;
+      font-size: 20px;
+      padding: 10px;
+      outline: none;
+      border: none;
+      border-radius: 10px;
+    }
+    button {
+      width: 20%;
+      height: 100%;
+      padding: 10px;
+      font-size: 100%;
+      border: none;
+      outline: none;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: 0.3s ease all;
+      &:hover {
+        scale: 1.05;
+        transition: 0.3s ease all;
+      }
+    }
+  }
 }
